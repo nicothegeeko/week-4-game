@@ -1,0 +1,219 @@
+body {background: url(../images/digimon-wallpaper-2.jpg) no-repeat;
+background-size: 100%;
+}
+
+section {size: 100%;}
+
+img {float: right;
+padding-right: 5%;}
+
+#game-title {
+background: url(../images/Game-Title.png) no-repeat;
+ margin-right: 5%;
+    width: 370px;
+    height: 300px;
+    float: right;
+    background-size: contain;
+
+}
+
+
+.patamon {
+    background: url(../images/patamon.png)no-repeat;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: pink;
+    text-overflow: auto;}
+
+.patamon2 {
+    background: url(../images/patamon.png)no-repeat;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: pink;
+    text-overflow: auto;
+    display: none;}
+
+.gatomon {
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    background: url(../images/gatomon.png)no-repeat;
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: yellow;
+}
+
+.gatomon2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    background: url(../images/gatomon.png)no-repeat;
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: yellow;
+    display: none;
+}
+
+.etemon {
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    background: url(../images/etemon.png)no-repeat;
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: red;
+}
+
+.etemon2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    background: url(../images/etemon.png)no-repeat;
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: red;
+    display: none;
+}
+
+.puppetmon {
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    background: url(../images/Puppetmon.gif)no-repeat;
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: blue;
+}
+
+.puppetmon2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+    background: url(../images/Puppetmon.gif)no-repeat;
+    margin-right: 1%;
+    width: 100px;
+    height: 75px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    background-size: contain;
+    color: blue;
+    display: none;
+}
+
+.character {border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+    width: 125px;
+    height: 125px;
+    text-align: center top;
+    float: left; }
+
+img {max-width: 100px;
+max-height: 100px;}
+
+p {padding: 0px
+    ;}
+
+
+
+#btn {clear: both;
+float: left;
+height: 200px;
+width: 100px;
+
+}
+
+#enemies{
+    margin-top: 10px;
+    height: 200px;
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+  }
+
+#character-pick {
+    margin-top: 10px;
+    height: 150px;
+    width: 500px;
+    margin-left:20px;
+}
+
+#character-chosen {
+    height: 150px;
+    width: 700px;
+    margin-left:20px;
+   
+}
+#fight-section {height: 50px;
+    width: 500px;
+    margin-left:20px;
+
+}
+#defender {height: 150px;
+    width: 700px;
+    margin-left:20px;
+    clear: both;
+    
+
+}
+
+
+
