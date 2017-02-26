@@ -9,10 +9,10 @@ var chosenEnemy;
 var isGameOver = false;
 
 
-var patamon = {"name": "Patamon","health": 100, "attack": 200, "counter": 150};
-var gatomon = {"name": "Gatomon","health": 150, "attack": 220, "counter": 175};
-var etemon = {"name": "Etemon","health": 175, "attack": 230, "counter": 180};
-var puppetmon = {"name": "Puppetmon","health": 200, "attack": 240, "counter": 190};
+var patamon = {name: "Patamon",health: 100, attack: 200, counter: 150};
+var gatomon = {name: "Gatomon",health: 150, attack: 220, counter: 175};
+var etemon = {name: "Etemon",health: 175, attack: 230, counter: 180};
+var puppetmon = {name: "Puppetmon",health: 200, attack: 240, counter: 190};
 
 $("#character-chosen_div").on("click", function(){
     	if(isCharacterChosen === false){
@@ -33,9 +33,8 @@ $(document).on('click','.enemies_div',function() {
        if(isEnemyChosen === false){
        		isEnemyChosen = true;
        		chosenEnemy = eval(this.id);
-       		$("#" + chosenEnemy.name).appendTo("#current_enemy");
-       		$("#instructions").text("It's time to do battle! Hit the attack button to attack " + chosenEnemy.name + "!");
-       		$("#attack").css("display", "block");
+       		$("#" + chosenEnemy.name).appendTo("#defender");
+       		$("#btn").css("display", "block");
        }
 	});
 
@@ -238,16 +237,16 @@ $("etemon2").on("click", function(){
 
 
 $("#btn").on("click", function() {
-if (isGameOver ===false){
+if (isGameOver === false){
 	chosenCharacter.health -= chosenEnemy.attack;
 	chosenCharacter.health -= chosenEnemy.attack;
-	$("#" + chosenCharacter.name + "HP").html("HP: " + chosenCharacter.health);
-		$("#" + chosenEnemy.name + "HP").html("HP: " + chosenEnemy.health);
+	$("#" + chosenCharacter.name + "HP").append("HP: " + chosenCharacter.health);
+		$("#" + chosenEnemy.name + "HP").append("HP: " + chosenEnemy.health);
 
 }
         //Message after attack reads...
         $("#attack-text").text("You attacked " + chosenEnemy.name + " for " + chosenCharacter.attack + 
-			" damage! " + chosenEnemy.name + " attacked you back for " + chosenCharacter.counter + " damage! "
+			"  " + chosenEnemy.name + " attacked you back for " + chosenCharacter.counter + " damage! "
 			+ "Click the attack button again to attack " + chosenEnemy.name + "!");
 		});
       });
